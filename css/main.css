@@ -1,0 +1,51 @@
+.rectangulo	{
+	width: 100%;
+	position: relative;
+	left: 50px;
+	top: 100px;
+}
+
+.icon{
+	width: 250px;
+	height: 300px;
+	background-color: #000000;
+	display:inline-block;
+	transition: 1.5s ease;
+ 	-moz-transition: 1.5s ease; 
+ 	-webkit-transition: 1.5s ease; 
+ 	-o-transition: 1.5s ease; 
+ 	opacity: 1;
+}
+	.icon:hover{
+		transform : scale(2);
+		-moz-transform : scale(2); 
+		-webkit-transform : scale(2); 
+		-o-transform : scale(2); 
+		-ms-transform : scale(2);
+		opacity: .5;
+}
+
+h4 {
+	font-family: "Satisfy";
+	font-size: 20px;
+	color:#FFFFFF;
+}
+
+p {
+	font-family: "bold";
+	color: #FFFFFF;
+	font-size: 12px;
+}
+
+.icon-music, .icon-users, .icon-facebook, .icon-phone, .icon-message {
+	font-size: 40px;
+	color: #FFFFFF;
+	position: absolute;
+	top: 40px;
+	margin-left: 25px;
+	width: 200px;
+	text-align: center;
+}
+
+font-family: 'Satisfy', cursive;
+font-family: 'Roboto Condensed', sans-serif;
